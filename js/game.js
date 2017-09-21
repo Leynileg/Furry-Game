@@ -1,6 +1,6 @@
 import {Furry} from './furry';
-
 import {Coin} from './coin';
+
 var Game = function() {
     this.board = document.querySelectorAll("#board div");
     this.section = document.querySelector("#board");
@@ -19,7 +19,6 @@ var Game = function() {
     this.showFurry = function() {
         this.hideVisibleFurry();
         this.board[ this.index(this.furry.x,this.furry.y) ].classList.add('furry');
-        
     }
     
     this.showCoin = function() {
@@ -30,8 +29,7 @@ var Game = function() {
         var divs = document.querySelector('.furry');
         if (divs != null) {
              divs.classList.remove('furry');
-        }
-        
+        } 
     }
        
     this.moveFurry = function() {

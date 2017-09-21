@@ -26,7 +26,6 @@ section#score {
   height: 50px;
 }
 
-
 section#score div {
   width: 10em;
   height: 3em;
@@ -38,9 +37,6 @@ section#score div {
   box-shadow: 1px 1px 5px 1px lightgray;
   margin: 1em auto;
 }
-
-
-
 
 .furry {
   background-image: url('../images/furry.png');
@@ -72,7 +68,6 @@ section#over pre {
   font-weight: bolder;
   color: brown;
 }
-
 
 section#over div h1,h2 {
     
