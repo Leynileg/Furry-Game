@@ -46,8 +46,8 @@ var Game = function() {
             this.furry.y = this.furry.y - 1;
         }
         this.gameOver();
-        this.showFurry();
         this.checkCoinCollision();
+        this.showFurry();
     }
     
     this.startGame = function() {
@@ -89,7 +89,6 @@ var Game = function() {
         if (this.furry.x < 0 || this.furry.x > 9 || this.furry.y < 0 || this.furry.y > 9) {
             clearInterval(this.idSetInterval);
             this.hideVisibleFurry();
-            
             this.tablePoints.classList.add("invisible");
             this.section.classList.add("invisible");
             this.over.classList.remove("invisible");
