@@ -3,18 +3,17 @@
 <head>
     <meta charset="utf-8">
     <title>Furry Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel='stylesheet' href='css/style.css'>
-
 </head>
 <body>
-  <section id='score'>
+  <section class='score'>
     <div>
       SCORE<br>
       <strong class="points">0</strong>
     </div>
   </section>
-
-  <section id='board'>
+  <section class='board'>
     <div></div>
     <div></div>
     <div></div>
@@ -116,14 +115,11 @@
     <div></div>
     <div></div>
   </section>
-
-  <section id='over' class='invisible'>
-    <div>
+  <section class='over invisible'>
         <h1>GAME OVER</h1>
         <h2>Score: <strong class="points">0</strong></h2>
-    </div>
+        <button class="btn-again">Play Again!</button>
   </section>
-
-  <script src='js/out.js'></script>
+  <script src='src/index.ts'></script>
 </body>
 </html>
