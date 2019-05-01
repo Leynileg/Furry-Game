@@ -3,4 +3,4 @@ class Coin {
   public y: number = ~~(Math.random() * 10)
 }
 
-export default Coin;
+export default Coin
